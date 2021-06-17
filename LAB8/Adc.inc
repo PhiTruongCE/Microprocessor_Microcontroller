@@ -1,0 +1,1 @@
+extern		Adc_init,Adc_go,ad_res,Adc_isr

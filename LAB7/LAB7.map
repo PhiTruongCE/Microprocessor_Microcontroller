@@ -1,0 +1,229 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu Dec 24 11:03:38 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                    .code       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_0       code   0x000008    program   0x000004
+                   .org_1       code   0x000018    program   0x000004
+                      PRG       code   0x00001c    program   0x00033e
+               D_LCD_DATA      udata   0x000000       data   0x000019
+               .udata_acs      udata   0x000019       data   0x000000
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x000359      
+            844 out of 132120 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   D10241   0x000154    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                   D10242   0x00015c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 D1024end   0x000160    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    Delay   0x000340    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                Delay40ms   0x00034e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  Div1024   0x000150    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  LCDBusy   0x000336    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  Lcd_cls   0x0000be    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_gotoxy   0x0000c8    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_init   0x00008c    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putb   0x000244    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putc   0x0000dc    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_puth   0x00024e    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_putram   0x000276    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_putrom   0x000284    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putw   0x0001d2    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+            Rcerr_process   0x000036    program     extern D:\VXL_VDK\LAB7\Tn07.asm 
+                Rcv_error   0x00007a    program     extern D:\VXL_VDK\LAB7\Serial.asm
+            SPIPortA_init   0x0002d6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+            SPIPortB_init   0x0002ee    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_init   0x0002ba    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_send   0x0002c8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                Send_char   0x000082    program     extern D:\VXL_VDK\LAB7\Serial.asm
+              Serial_init   0x00004c    program     extern D:\VXL_VDK\LAB7\Serial.asm
+               Serial_isr   0x00006a    program     extern D:\VXL_VDK\LAB7\Serial.asm
+           Serial_process   0x000034    program     extern D:\VXL_VDK\LAB7\Tn07.asm 
+                   Truyen   0x00003e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+              Write_PortA   0x00031e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+              Write_PortB   0x000306    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                      b2a   0x000228    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  b_div10   0x0001dc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m1   0x0001e4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m2   0x0001f8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m3   0x0001fa    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  b_mod10   0x000202    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    bcd2d   0x00021a    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                    bcd2p   0x000208    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  d_write   0x000294    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_a21   0x00017c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_a22   0x00019a    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over1   0x00019e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over2   0x0001a0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over3   0x0001a6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_ar1   0x000110    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_ar2   0x00012e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover1   0x000132    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover2   0x000134    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover3   0x00013a    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  find_ar   0x000104    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 find_ar2   0x000170    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                      h2a   0x000262    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     h2a1   0x000270    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     h2a2   0x000272    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  i_write   0x0002a8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     init   0x00001e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                 isr_high   0x000046    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  isr_low   0x00004a    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                     lap1   0x000346    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     lap3   0x000352    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     main   0x00002a    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                      nha   0x00002e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  putram1   0x00027c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  putrom1   0x00028c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     row1   0x0000ce    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     row2   0x0000d0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                   rowend   0x0000d4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    send1   0x000086    program     extern D:\VXL_VDK\LAB7\Serial.asm
+                    start   0x00001c    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                      w2a   0x0001bc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     w2a1   0x0001c6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                   w_divb   0x0000e2    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  w_divb1   0x0000e6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  w_divb2   0x0000f0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                w_divbend   0x0000f4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    wait1   0x0002cc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_temp   0x000003       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                     char   0x000019       data     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  col_idx   0x000019       data     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  dec_buf   0x00000b       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  hex_buf   0x000011       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_arhi   0x000016       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_arlo   0x000015       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_cnt   0x00000a       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_col   0x000007       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_dem   0x000000       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                lcd_dem1a   0x000001       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                lcd_dem1b   0x000002       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_dshi   0x000014       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_dslo   0x000013       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_mask   0x000005       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_qohi   0x000018       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_qolo   0x000017       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_quo   0x000008       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_rem   0x000009       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_row   0x000006       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+                   lcd_wr   0x000004       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x00001c    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                     init   0x00001e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                     main   0x00002a    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                      nha   0x00002e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+           Serial_process   0x000034    program     extern D:\VXL_VDK\LAB7\Tn07.asm 
+            Rcerr_process   0x000036    program     extern D:\VXL_VDK\LAB7\Tn07.asm 
+                   Truyen   0x00003e    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                 isr_high   0x000046    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  isr_low   0x00004a    program     static D:\VXL_VDK\LAB7\Tn07.asm 
+              Serial_init   0x00004c    program     extern D:\VXL_VDK\LAB7\Serial.asm
+               Serial_isr   0x00006a    program     extern D:\VXL_VDK\LAB7\Serial.asm
+                Rcv_error   0x00007a    program     extern D:\VXL_VDK\LAB7\Serial.asm
+                Send_char   0x000082    program     extern D:\VXL_VDK\LAB7\Serial.asm
+                    send1   0x000086    program     extern D:\VXL_VDK\LAB7\Serial.asm
+                 Lcd_init   0x00008c    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  Lcd_cls   0x0000be    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_gotoxy   0x0000c8    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                     row1   0x0000ce    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     row2   0x0000d0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                   rowend   0x0000d4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putc   0x0000dc    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                   w_divb   0x0000e2    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  w_divb1   0x0000e6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  w_divb2   0x0000f0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                w_divbend   0x0000f4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  find_ar   0x000104    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_ar1   0x000110    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_ar2   0x00012e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover1   0x000132    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover2   0x000134    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_arover3   0x00013a    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  Div1024   0x000150    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                   D10241   0x000154    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                   D10242   0x00015c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 D1024end   0x000160    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 find_ar2   0x000170    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_a21   0x00017c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    f_a22   0x00019a    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over1   0x00019e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over2   0x0001a0    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                f_a2over3   0x0001a6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                      w2a   0x0001bc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     w2a1   0x0001c6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putw   0x0001d2    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  b_div10   0x0001dc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m1   0x0001e4    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m2   0x0001f8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     b_m3   0x0001fa    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  b_mod10   0x000202    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    bcd2p   0x000208    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                    bcd2d   0x00021a    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                      b2a   0x000228    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_putb   0x000244    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 Lcd_puth   0x00024e    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                      h2a   0x000262    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     h2a1   0x000270    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     h2a2   0x000272    program     static D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_putram   0x000276    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  putram1   0x00027c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+               Lcd_putrom   0x000284    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  putrom1   0x00028c    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  d_write   0x000294    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  i_write   0x0002a8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_init   0x0002ba    program     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_send   0x0002c8    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    wait1   0x0002cc    program     static D:\VXL_VDK\LAB7\LCD.asm  
+            SPIPortA_init   0x0002d6    program     static D:\VXL_VDK\LAB7\LCD.asm  
+            SPIPortB_init   0x0002ee    program     static D:\VXL_VDK\LAB7\LCD.asm  
+              Write_PortB   0x000306    program     static D:\VXL_VDK\LAB7\LCD.asm  
+              Write_PortA   0x00031e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  LCDBusy   0x000336    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                    Delay   0x000340    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     lap1   0x000346    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                Delay40ms   0x00034e    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                     lap3   0x000352    program     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_dem   0x000000       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                lcd_dem1a   0x000001       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                lcd_dem1b   0x000002       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 SPI_temp   0x000003       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                   lcd_wr   0x000004       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_mask   0x000005       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_row   0x000006       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_col   0x000007       data     extern D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_quo   0x000008       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_rem   0x000009       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  lcd_cnt   0x00000a       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  dec_buf   0x00000b       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                  hex_buf   0x000011       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_dslo   0x000013       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_dshi   0x000014       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_arlo   0x000015       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_arhi   0x000016       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_qolo   0x000017       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                 lcd_qohi   0x000018       data     static D:\VXL_VDK\LAB7\LCD.asm  
+                     char   0x000019       data     static D:\VXL_VDK\LAB7\Tn07.asm 
+                  col_idx   0x000019       data     static D:\VXL_VDK\LAB7\Tn07.asm 
+
+
